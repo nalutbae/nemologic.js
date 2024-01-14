@@ -1,6 +1,6 @@
 {
   "name": "nemologic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Solving Nemonemo logic puzzles.",
   "main": "src/index.js",
   "scripts": {

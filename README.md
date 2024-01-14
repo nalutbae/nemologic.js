@@ -26,6 +26,12 @@ You can use this library for the above puzzle to get output like this:
 
 - node.js 14 or later
 
+### Installation
+
+```sh
+$ npm i nemologic
+```
+
 ### Usage
 
 1. Initialize NemoLogicSolver with row and column hints.
@@ -41,12 +47,13 @@ const solver = new NemoLogicSolver(rowsHints, columnHints, false);
 
 2. Process and solve the puzzle:
 
-```java
-solver.process();
+```js
+const answer = solver.process();
+console.log(answer);
 ```
 
 Check out some additional test examples:
-[2Fnemologic.solver.js](__tests__%2Fnemologic.solver.js)
+[examples](https://github.com/nalutbae/nemologic.js/blob/main/__tests__/nemologic.solver.test.js)
 
 ### License
 
