@@ -1,0 +1,28 @@
+{
+  "name": "nemologic",
+  "version": "1.0.0",
+  "description": "Solving Nemonemo logic puzzles.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalutbae/nemologic.js.git"
+  },
+  "keywords": [
+    "nemonemo",
+    "nemonemologic",
+    "puzzle",
+    "quiz"
+  ],
+  "author": "nalutbae",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nalutbae/nemologic.js/issues"
+  },
+  "homepage": "https://github.com/nalutbae/nemologic.js#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
